@@ -17,10 +17,10 @@ auto create_shader_program(std::string_view vertex_src, std::string_view fragmen
 auto create_shader(std::string_view src, GLenum type) -> GLuint;
 
 // Note to self: Backup is in ~/backup_repos
+// TODO: Refactor GLAD as library
 
 auto main() -> int {
     auto success = int { };
-    auto infolog = std::array<char, 512> { };
 
     glfwInit();
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 4);
