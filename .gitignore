@@ -1,0 +1,5 @@
+# vs2022 build folder
+out/
+
+# vs2022 something
+.vs/
